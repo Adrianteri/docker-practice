@@ -39,11 +39,11 @@ Steps
     ``` 
     docker image build -t python-hello-world .
     ```
-    ![Docker image build](https://github.com/Adrianteri/docker-practice/tree/master/python-app/images/Screenshot from 2019-01-06 19-36-39.png)
+    ![Docker image build](https://github.com/Adrianteri/docker-practice/blob/master/images/Screenshot from 2019-01-06 19-36-39.png)
     ```
     docker image ls 
     ```
-    ![Docker image ls](https://github.com/Adrianteri/docker-practice/tree/master/python-app/images/Screenshot from 2019-01-06 19-39-18.png)
+    ![Docker image ls](https://github.com/Adrianteri/docker-practice/blob/master/images/Screenshot from 2019-01-06 19-39-18.png)
     
 4. Running the image:
     ```
@@ -55,7 +55,7 @@ Steps
     ```
     docker container logs [container id/ name]
     ```
-   ![Docker container logs](https://github.com/Adrianteri/docker-practice/tree/master/python-app/images/Screenshot from 2019-01-06 19-43-33.png) 
+   ![Docker container logs](https://github.com/Adrianteri/docker-practice/blob/master/images/Screenshot from 2019-01-06 19-43-33.png) 
 6. Push to central registry:
     ```
     docker login - Create an account if you don't have one at https://hub.docker.com/
@@ -64,7 +64,7 @@ Steps
 
     docker push [username]/python-hello-world
     ```
-    ![Docker push](https://github.com/Adrianteri/docker-practice/tree/master/python-app/images/Screenshot from 2019-01-06 20-17-06.png)    
+    ![Docker push](https://github.com/Adrianteri/docker-practice/blob/master/images/Screenshot from 2019-01-06 20-17-06.png)    
 
 7. Deploy a change:
     update app.py
